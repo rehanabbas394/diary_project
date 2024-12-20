@@ -12,7 +12,7 @@ from django.contrib.auth.decorators import login_required
 from .forms import DiaryEntryForm 
 from django.contrib.auth import logout
 
-
+//Make something good project. Crud API is for freshers like e-commerce and handles media and payment methods. 
 
 @api_view(['GET', 'POST'])
 def diary_list(request):
@@ -52,7 +52,7 @@ def diary_detail(request, pk):
 
 
 
-
+//Remove extra spaces it seems like copying from AI tools
 
 
 # Login View
@@ -80,7 +80,7 @@ def register_view(request):
         return redirect('dashboard') 
     return render(request, 'register.html')
 
-
+// use class base 
 
 
 # Logout View
